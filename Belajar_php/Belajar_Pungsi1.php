@@ -1,8 +1,7 @@
 <?php
-function myMessage(){
-    echo " Hello World";
-    echo"<br>";
-    echo"Aku Datang";
+function myMessage($belajar){
+    return "aku mau belajar" . $belajar . "NB";
 }
-myMessage();
+
+echo myMessage("ips");
 ?>
